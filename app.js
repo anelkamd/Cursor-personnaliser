@@ -10,5 +10,5 @@ window.addEventListener('mouseleave', () => {
 });
 
 window.addEventListener('mouseenter', () => {
-    mouse.style.display = 'block';  // Faire réapparaître la div quand la souris entre dans la fenêtre
+    mouse.style.display = 'block';  
 });
