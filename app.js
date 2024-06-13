@@ -1,0 +1,1 @@
+const mouse = document.querySelector('#mouse')
