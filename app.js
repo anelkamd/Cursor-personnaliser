@@ -6,6 +6,13 @@ window.addEventListener('mousemove', (e) => {
 });
 
 const Tittles = document.querySelectorAll('h1, h3');
-Tittles.addEventListener('mousemove', (e) => {
-    mouse.style.transform = scale(1.1)
+Tittles.forEach( Tittles => {
+    title.addEventListener('mouseover', () => {
+        document.mouse.classList.add('cursor-anim');
+    });
+
+    title.addEventListener('mouseout', () => {
+        document.mouse.classList.remove('cursor-anim');
+    });
+
 })
