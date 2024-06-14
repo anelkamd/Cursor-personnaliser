@@ -6,7 +6,7 @@ window.addEventListener('mousemove', (e) => {
 });
 
 const Tittles = document.querySelectorAll('h1, h3');
-Tittles.forEach( Tittles => {
+Tittles.forEach( title => {
     title.addEventListener('mouseover', () => {
         document.mouse.classList.add('cursor-anim');
     });
