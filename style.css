@@ -1,20 +1,20 @@
 html {
     cursor: none;
 }
-/*
+
 #mouse {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 20px;
     height: 20px;
-    background-color: rgba(0, 0, 0, 0.353);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 50%;
-    border: 2px solid #000; 
+    border: 2px solid #00000000; 
     transform: translate(-50%, -50%);
   }
-*/
+
 img {
-    max-width: 50px;
+    max-width: 30px;
 }
 
